@@ -1,20 +1,21 @@
-.App {
-  text-align: center;
-  background-color: midnightblue;
-  color: #61dafb;
+.app {
+  height: 100vh;
+  background: linear-gradient(to top right, #1B202D, #434f69);
+  color: #d4d4d4;
+}
+
+h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
   margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand {
+  color: white
+}
+
+.nav-link {
+  color: white
 }
